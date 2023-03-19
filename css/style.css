@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.cabeca{
+    width: 100vw;
+    display: flex;
+    background:green;
+}
+
+
+.texto{
+    width:45%;
+}
+
+.texto h1{
+    color: #ffffff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.conta{
+    width:45%;
+    text-align: right;
+}
+
+.conta button{
+    margin-top: 10px;
+    background: #ffffff;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    padding:5px;
+    cursor:pointer;
+    font-weight:900;
+}
+
+.conta button:hover{
+    background: #ccc;
+}
+
+.meio-site{
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    width: 60%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+    background: rgb(241, 234, 234);
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px -15px black;
+}
+
+label{
+    color: black;
+    margin-bottom: 5px;
+}
+
+.nome1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.email-senha{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.nome1 input{
+    padding: 10px;
+    border-radius:10px;
+    border:1px solid #5f6368;
+    outline:none;
+}
+
+.email-senha input{
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #5f6368;
+    outline:none;
+}
+
+.data-nascimento{
+    display: flex;
+    width:50%;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.diaa{
+    width: 36%;
+    padding: 10px;
+    outline:none;
+    border-radius:10px;
+    border:1px solid #5f6368;
+    margin: 0 5px;
+}
+
+.botao{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.botao button{
+    width: 100%;
+    padding:10px;
+    border-radius: 10px;
+    background: blueviolet;
+    cursor:pointer;
+    border:none;
+    font-size: 20px;
+    font-weight:900;
+    color: #ffffff;
+}
+
+.botao button:hover{
+    background: #8955de;
+}
+
+.roda{
+    height: 60px;
+    text-align: center;
+    background:green;
+}
+
+.roda p{
+    padding-top: 15px;
+    color:#ffffff;
+}
+
+@media screen and (max-width:600px){
+    .card{
+        width:100%;
+    }
+    .nome1{
+        width: 100%;
+    }
+
+    .nome1 input{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    label{
+        margin: 0 auto;
+    }
+
+    .data-nascimento{
+        width:90%
+    }
+    .diaa{
+        width: 30%;
+        margin: 0 10px;
+    }
+
+    .texto h1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .conta button{
+        margin-top: 25px;
+    }
+}
